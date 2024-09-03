@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Tahoma", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.page-header {
+    background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 210px 50%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.header-title {
+    color:ghostwhite;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 36px;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0;
+    padding: 20px;
+    list-style-type: none; /* Убирает буллиты */
+    background-color: #e2e2e2;
+}
+
+.feature {
+    padding: 12px 20px 16px;
+    border-left: 4px solid #86c400;
+    border-radius: 4px;
+    background-color: #fffefc;
+}
+
+.feature h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.page-footer {
+    padding: 20px;
+    color: #b0b0b0;
+    background-color: #333;
+}
